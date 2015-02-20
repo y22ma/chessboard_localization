@@ -6,5 +6,5 @@
     <param name="chessboard_box_size" type="double" value="0.1215"/>
     <param name="calib_file_name" type="str" value="/tmp/camera_calib.yml"/>
   </node>
-  <node pkg="rviz" type="rviz" name="rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find chessboard_localization)/rviz_cfg/chessboard.rviz"/>
 </launch>
