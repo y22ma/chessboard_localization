@@ -24,3 +24,4 @@ Bringup instructions:
    
    rosbag play sample.bag #please ask Jimmy for this dataset
 
+This should bring up a RVIZ GUI that visualize the pose of the camera with respect to the chessboard during the events of the sample.bag dataset.
