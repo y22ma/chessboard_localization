@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(chessboard_localization)
 
 find_package(catkin REQUIRED COMPONENTS
-  roscpp geometry_msgs sensor_msgs image_transport cv_bridge
+  roscpp geometry_msgs sensor_msgs image_transport cv_bridge tf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -11,7 +11,7 @@ find_package(OpenCV REQUIRED)
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES chessboard_localization
-  CATKIN_DEPENDS roscpp geometry_msgs sensor_msgs image_transport cv_bridge
+  CATKIN_DEPENDS roscpp geometry_msgs sensor_msgs image_transport cv_bridge tf
   DEPENDS system_lib
 )
 
