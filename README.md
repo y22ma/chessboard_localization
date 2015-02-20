@@ -18,8 +18,9 @@ Bringup instructions:
    
 4. Run the demo via:
 
-   roslaunch chessboard_localization demo.launch
+   rosrun chessboard_localization run.bash
    
    roscd chessboard_localization/data
    
    rosbag play sample.bag
+
