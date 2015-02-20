@@ -22,5 +22,5 @@ Bringup instructions:
    
    roscd chessboard_localization/data
    
-   rosbag play sample.bag
+   rosbag play sample.bag #please ask Jimmy for this dataset
 
