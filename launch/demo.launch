@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="chessboard_localization" type="chessboard_localization_node" name="cbl">
+    <param name="chessboard_width" type="int" value="9"/>
+    <param name="chessboard_height" type="int" value="6"/>
+    <param name="chessboard_box_size" type="double" value="0.1215"/>
+    <param name="calib_file_name" type="str" value="/tmp/camera_calib.yml"/>
+  </node>
+  <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>
