@@ -14,9 +14,13 @@ ChessboardLocalization::ChessboardLocalization()
   // initialize parameters from the launch procedures
   double c_box_size;
   std::string calib_file_name;
+  // the number of inner corner of the chessboard in width
   ros::param::param<int32_t>("~chessboard_width", c_width_, 8);
+  // the number of inner corner of the chessboard in height
   ros::param::param<int32_t>("~chessboard_height", c_height_, 6);
+  // the size of the box in meters
   ros::param::param<double>("~chessboard_box_size", c_box_size, 0.1);
+  // path of the intrinsic calibration file
   ros::param::param<std::string>("~calib_file_name", calib_file_name, "/tmp/camera_calib.yml");
 
   // read in intrinsic calibration parameters for the camera
