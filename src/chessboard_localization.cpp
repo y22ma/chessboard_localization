@@ -1,6 +1,6 @@
 #include <sensor_msgs/image_encodings.h>
 #include <tf/transform_datatypes.h>
-#include "chessboard_localization/chessboard_localization.h""
+#include "chessboard_localization/chessboard_localization.h"
 
 namespace chessboard_localization
 {
