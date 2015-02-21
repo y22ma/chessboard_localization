@@ -12,6 +12,8 @@ Bringup instructions:
 
    git clone https://github.com/y22ma/chessboard_localization.git
    
+   rosdep install chessboard_localization
+   
    cd ~/catkin_ws
    
    catkin_make
